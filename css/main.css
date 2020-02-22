@@ -1,0 +1,46 @@
+html {
+    color: #444444;
+}
+html {
+    font-family: Kosugi;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.Class1 {
+    background: grey;
+    padding: 30px;
+    margin: 30px;
+    border: 5px solid black;
+    border-radius: 5px;
+    text-decoration: underline overline blue dotted;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+}
+.Class1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+}
+@keyframes fade-in {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.class1 .class2 {
+    animation: 1s fade-in infinite linear;
+}
+.linkedin {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
